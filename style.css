@@ -1,0 +1,11 @@
+body {
+ margin: 0;
+ padding: 0;
+ background-color: rgb(222,174,169);
+}
+#head {
+ position: absolute;
+ width: 1000px;
+ height: 200px;
+text-align: center;
+}
