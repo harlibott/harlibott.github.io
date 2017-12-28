@@ -1,0 +1,92 @@
+
+
+/* Intro Image */
+#intro{
+  posistion: absolute;
+  width: 300px;
+  padding: 10px 10px 0px 40px;
+}
+
+/* Portrait Image */
+#me{
+  posistion: absolute;
+  float: right;
+  width: 400px;
+  padding: 130px 60px 60px 20px;
+}
+
+/* LinkedIn Image */
+#lin{
+  posistion: absolute;
+  width: 40px;
+  padding-left: 60px;
+}
+
+/* Github Image */
+#gh{
+  posistion: absolute;
+  width: 45px;
+}
+
+/* Mail Image */
+#mail{
+  posisiton: absolute;
+  width: 44px;
+  padding-left: 5px;
+}
+
+/* Resume Image */
+#res{
+  posistion: absolute;
+  width: 48px;
+}
+
+/* Arcade Image */
+#arcade{
+    posistion: absolute;
+    padding-left: 80px;
+    width: 800px;
+}
+
+/* Breakout Image */
+#breakout{
+    posistion: absolute;
+    padding-left: 80px;
+    width: 590px;
+}
+
+/* Reversi Image */
+#reversi{
+    posistion: absolute;
+    padding-left: 50px;
+    width: 270px;
+}
+
+#gallery{
+  posistion: absolute;
+  padding-left: 80px;
+  width: 500px;
+}
+
+#reversinogui{
+  posistion: absolute;
+  padding-left: 80px;
+  width: 500px;
+}
+#projectshead{
+  posistion: absolute;
+  padding-left: 50px;
+  width: 240px;
+}
+
+#coursework{
+  posistion: absolute;
+  padding-left: 50px;
+  width: 330px;
+}
+
+#courses{
+  posistion: absolute;
+  padding-left: 60px;
+  width: 800px;
+}
