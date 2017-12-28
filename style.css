@@ -88,3 +88,7 @@ a.menulinks{
 a.menulinks:hover{
   color: #FFFFFF;
 }
+
+a.imgs:hover{
+  opacity: 0.7;
+}
