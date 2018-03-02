@@ -16,7 +16,6 @@
   font-size: 15px;
 }
 
-
 /* Body */
 body{
   font-size: 17px;
@@ -91,4 +90,91 @@ a.menulinks:hover{
 
 a.imgs:hover{
   opacity: 0.7;
+}
+
+/* Collapsable Block */
+
+label {
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #7f7f7f;
+}
+label:hover {
+    opacity: 0.7;
+}
+label::before {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 15px;
+  content: url("src img/dropdownbulletunchecked.png" );
+  transform: scale(.1);
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: white;
+  color: #7f7f7f;
+}
+section {
+  padding: 0 20px;
+}
+#arcadedrop:checked ~ #expand {
+  height: 500px;
+}
+#arcadedrop:checked ~ label::before {
+  content: url("src img/dropdownbulletchecked.png");
+  transform: scale(.1);
+}
+#gallerydrop:checked ~ #expand {
+  height: 650px;
+}
+#gallerydrop:checked ~ label::before {
+  content: url("src img/dropdownbulletchecked.png");
+  transform: scale(.1);
+}
+#reversidrop:checked ~ #expand {
+  height: 530px;
+}
+#reversidrop:checked ~ label::before {
+  content: url("src img/dropdownbulletchecked.png");
+  transform: scale(.1);
+}
+#listsdrop:checked ~ #expand {
+  height: 630px;
+}
+#listsdrop:checked ~ label::before {
+  content: url("src img/dropdownbulletchecked.png");
+  transform: scale(.1);
+}
+#minesdrop:checked ~ #expand {
+  height: 680px;
+}
+#minesdrop:checked ~ label::before {
+  content: url("src img/dropdownbulletchecked.png");
+  transform: scale(.1);
+}
+
+main {
+  background: white;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 0 20px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+  font-family: Snell Roundhand, Times, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 100;
+  color: #7f7f7f;
+}
+#dropdown{
+  font-size: 17px;
+  color: #7f7f7f;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }

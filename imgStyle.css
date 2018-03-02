@@ -68,6 +68,28 @@
   width: 500px;
 }
 
+#lists{
+  posistion: absolute;
+  padding-left: 10px;
+  width: 550px;
+}
+
+#lists2{
+  posistion: absolute;
+  padding-left: 10px;
+  width: 500px;
+}
+
+#mines{
+  posistion: absolute;
+  padding-left: 10px;
+  width: 600px;
+}
+#mines2{
+  posistion: absolute;
+  padding-left: 10px;
+  width: 385px;
+}
 #reversinogui{
   posistion: absolute;
   padding-left: 80px;
@@ -100,25 +122,31 @@
 #git{
   posistion: absolute;
   padding-left: 50px;
-  width: 330px;
+  width: 175px;
 }
 
 #email{
   posistion: absolute;
   padding-left: 50px;
-  width: 400px;
+  width: 230px;
 }
 
 #l{
   posistion: absolute;
   padding-left: 60px;
-  width: 300px;
+  width: 175px;
 }
 
 #r{
   posistion: absolute;
   padding-left: 70px;
-  width: 300px;
+  width: 170px;
+}
+
+#contacts{
+  posistion: absolute;
+  padding-left: 70px;
+  width: 175px;
 }
 
 #bottom{
