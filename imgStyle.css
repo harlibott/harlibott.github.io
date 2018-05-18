@@ -93,6 +93,26 @@
   padding-left: 80px;
   width: 500px;
 }
+#matrix{
+  posistion: absolute;
+  padding-left:10px;
+  width: 415px;
+}
+#matrix2{
+  posistion: absolute;
+  padding-left: 10px;
+  width: 600px;
+}
+#shell1{
+  posistion: absolute;
+  padding-left:10px;
+  width: 590px;
+}
+#shell2{
+  posistion: absolute;
+  padding-left: 10px;
+  width: 489.5px;
+}
 #projectshead{
   posistion: absolute;
   padding-left: 50px;

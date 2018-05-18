@@ -134,42 +134,44 @@ label::before {
   transition: height 0.5s;
   background: white;
   color: #7f7f7f;
+  overflow: scroll;
 }
+
 section {
   padding: 0 20px;
 }
-#arcadedrop:checked ~ #expand {
+#cppdrop:checked ~ #expand {
   height: 500px;
 }
-#arcadedrop:checked ~ label::before {
+#cppdrop:checked ~ label::before {
   content: url("src img/dropdownbulletchecked.png");
   transform: scale(.1);
 }
-#gallerydrop:checked ~ #expand {
+#javadrop:checked ~ #expand {
   height: 650px;
 }
-#gallerydrop:checked ~ label::before {
+#javadrop:checked ~ label::before {
   content: url("src img/dropdownbulletchecked.png");
   transform: scale(.1);
 }
-#reversidrop:checked ~ #expand {
+#ssrldrop:checked ~ #expand {
   height: 530px;
 }
-#reversidrop:checked ~ label::before {
+#ssrldrop:checked ~ label::before {
   content: url("src img/dropdownbulletchecked.png");
   transform: scale(.1);
 }
-#listsdrop:checked ~ #expand {
+#interndrop:checked ~ #expand {
   height: 630px;
 }
-#listsdrop:checked ~ label::before {
+#interndrop:checked ~ label::before {
   content: url("src img/dropdownbulletchecked.png");
   transform: scale(.1);
 }
-#minesdrop:checked ~ #expand {
+#otherdrop:checked ~ #expand {
   height: 680px;
 }
-#minesdrop:checked ~ label::before {
+#otherdrop:checked ~ label::before {
   content: url("src img/dropdownbulletchecked.png");
   transform: scale(.1);
 }
@@ -180,13 +182,14 @@ main {
   margin: 20px auto;
   padding: 10px 0 20px;
   box-shadow: 0 3px 5px rgba(0,0,0,0.3);
-  font-family: Snell Roundhand, Times, "Times New Roman", serif;
-  font-size: 25px;
-  font-weight: 100;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 20;
   color: #7f7f7f;
 }
 #dropdown{
   font-size: 17px;
   color: #7f7f7f;
   font-family: Georgia, Times, "Times New Roman", serif;
+
 }
