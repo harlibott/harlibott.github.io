@@ -51,14 +51,14 @@
 /* Breakout Image */
 #breakout{
     posistion: absolute;
-    padding-left: 80px;
+    padding-left: 20px;
     width: 590px;
 }
 
 /* Reversi Image */
 #reversi{
     posistion: absolute;
-    padding-left: 50px;
+    padding-left: 20px;
     width: 270px;
 }
 
@@ -70,25 +70,25 @@
 
 #lists{
   posistion: absolute;
-  padding-left: 10px;
-  width: 550px;
+  padding-left: 2px;
+  width: 450px;
 }
 
 #lists2{
   posistion: absolute;
   padding-left: 10px;
-  width: 500px;
+  width: 410px;
 }
 
 #mines{
   posistion: absolute;
   padding-left: 10px;
-  width: 600px;
+  width: 500px;
 }
 #mines2{
   posistion: absolute;
   padding-left: 10px;
-  width: 385px;
+  width: 322px;
 }
 #reversinogui{
   posistion: absolute;
