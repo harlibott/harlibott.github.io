@@ -6,7 +6,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="imgStyle.css">
     <link rel="icon" type="image/png" href="src img/icon.png"/>
-    <script type= "text/javascript" src="jscript.js"></script>
 </head>
 <body>
 
@@ -14,12 +13,9 @@
 <p id= "menu">
 <br><br><br><br>
 <a class= "menulinks" href="#top">Overview <text style="margin-left: 40px;"></a>
-<a class= "menulinks" href="#smallsatimg">Small Sat Lab <text style="margin-left: 40px;"> </a>
-<a class= "menulinks" href="#leadershiphead">Leadership <text style="margin-left: 40px;"> </a>
 <a class= "menulinks" href="#projectshead"> Projects <text style="margin-left: 40px;"></a>
 <a class= "menulinks" href="#coursework">Coursework <text style="margin-left: 40px;"></a>
 <a class= "menulinks" href="#resources"> Resources</a>
-
 
 </br></br></br></br>
 </p>
@@ -40,31 +36,27 @@
 
 <!-- intro paragraph text-->
 <p id="introparagraph">
-  I am a full-time Senior at The University of Georgia graduating Summer 2019. For the first one and a half years of college
+  I am a full-time Junior at The University of Georgia graduating May 2019. For the first one and a half years of college
   I jumped around from two different science majors: Biology and Excercise Science. But those two majors never
   clicked for me. But in the Spring of 2017, <strong>I began to pursue a B.S. in Computer Science and finally
   felt like I found something that I loved.</strong> Since then, I have developed a passion for Software Engineering! <br><br>
-  <strong>I am currently searching for Software Engineering internships</strong> during the Summer of '18  to gain more
-  knowledge in programming!</br></br> Aside from programming and school work, I lead worship
-  at a church called First Baptist Church of Woodstock and Athens Church, enjoy playing piano and guitar, and riding horses.
+  <strong>I am currently searching for Software Engineering internships</strong> during the Summer of '18  to gain more
+  knowledge in programming!</br></br> Aside from programming and school work, I lead worship
+  at a church called First Baptist Church of Woodstock, enjoy playing piano and guitar, and riding horses.
   <br></br>
+  <strong><i>Due to protecting The University of Georgia's Academic Honesty Violation, if you would like to view any of the source code for the projects
+  below, please <a href="mailto:harlibott@gmail.com?subject=Github Access Requested &body=Hi Harli, Please grant me access to your [Project Name Here] repository source code!"><u> email here </u></a> and I will add you as a contributor to view all of my private repositories.</i></strong>
 </p>
 <br></br>
-
 <!-- Small Sat Paragraph Text -->
 <img id="smallsatimg" src="src img/smallsat.png" alt="Small Satellite Research Lab"/>
 
 <p id="smallsatlab">
-  Recently, I joined the University of Georgia's <strong>Small Satellite Research Lab </strong>(SSRL) as a <strong> software developer</strong>.
+  Recently, I joined the University of Georgia's <strong>Small Satellite Research Lab </strong>(SSRL).
   The UGA Small Satellite Research Laboratory was founded in 2016 with the goal of launching a student built spacecraft
   - a CubeSat - into low earth orbit. Our mission is to place UGA among the top spacefaring universities
   in the world and to give UGA a permanent presence in outer space.
 
-  <br></br>
-  I am currently a <strong>software developer</strong> in the lab working on the <strong>Ground Station User Interface for satellite communication.</strong> I research
-  and implement an open mission control software created by NASA to be the interface for downloading data from the satellites while
-  they are in orbit. This is programmed in <strong>html, css, and node.js.</strong> This includes the interface for scheduling satellite imaging, video feed from the satellite to the ground station,
-  temperature, elevation, wind, humidity, pressure, etc...
   <br></br>
   <strong>The Mapping and Ocean Color Imager</strong> (MOCI) cube sat is funded by the <strong>Air Force Research Laboratory’s
   </strong>(AFRL) <strong>ninth iteration of the University Nanosatellite Program </strong>(UNP). The MOCI mission will
@@ -100,7 +92,7 @@
 <img id="leadershiphead" src="src img/Leadership.png" alt= "Leadership"/>
 
 <p id="leadershipparagraph">
-Currently, I am a part of UGA's <strong>Association for Computing Machinery</strong> (ACM) chapter. In addition to this, I also
+Currently, I am appart of UGA's <strong>Association for Computing Machinery</strong> (ACM) chapter. In addition to this, I also
 am a part of their <strong>mentorship program.</strong> Their mentorship program allows them to assign upper classmen in the same
 Computer Science major to lower classmen who are just getting started in their experience. I am currently a mentor to a lower classman
 where I am responsible for answering any career related questions, giving help with homework & projects, and meeting about
@@ -113,29 +105,15 @@ once a month to catch up and talk about life.
 <a class="imgs" href="https://github.com/harlibott" target="_blank" rel="noopener"><img id="projectshead" src="src img/projects2.png" alt= "Projects"></a>
 
 <!-- projects text-->
-<br></br>
+<p id="projects">
 
-<!-- C++ RELATED -->
-
-<button class="collapsible">Unix Shell</button>
-  <div class="content">
-
-  </div>
-
-<button class="collapsible">System Calls</button>
-  <div class="content">
-
-  </div>
-<button class="collapsible">Matrix</button>
-  <div class="content">
-
-  </div>
-</div>
-<!-- JAVA RELATED -->
-
-<button class="collapsible">Arcade</button>
-<div class="content">
-  <p>
+<!-- ARCADE-->
+<main>
+<input id="arcadedrop" type="checkbox"  style="opacity:0">
+ <label for="arcadedrop">Arcade</label>
+ <div id="expand">
+   <section id="dropdown">
+      <p>
       In this project, I implemented a single GUI application in Java using JavaFX 8 that
       provides an arcade with two playable games: Reversi and Breakout. Here, I gained experience in the ability to:
       plan, design, implement, test, debug, and deploy a complete object-oriented
@@ -152,55 +130,74 @@ once a month to catch up and talk about life.
           <img id="reversi" src="src img/reversi.png" alt="Reversi"/>
        </p>
      </p>
-</div>
+   </section>
+ </div>
+</main>
 
-<button class="collapsible">Gallery</button>
-<div class="content">
-  <p>
-       In this project, I implemented a GUI application in Java using JavaFX 8 that displays a
-       gallery of images based on the results of a search query to the iTunes search API. I learned how to
-       display images, and handle threads, JSON, and parse through the iTunes Search API.
-       Here, I gained more knowledge in the ability to:
-       plan, design, implement, test, debug, and deploy a complete object-oriented
-       software solution in Linux/Unix environment. I utilitze inheritance and polymorphism,
-       devloped a GUI for a software programming project, implement exception-handling, and was able
-       to understand and apply langauge basics using an OOP language.
+<!-- GALLERY -->
+<main>
+<input id="gallerydrop" type="checkbox"  style="opacity:0">
+ <label for="gallerydrop">Gallery</label>
+ <div id="expand">
+   <section id="dropdown">
+      <p>
+        In this project, I implemented a GUI application in Java using JavaFX 8 that displays a
+        gallery of images based on the results of a search query to the iTunes search API. I learned how to
+        display images, and handle threads, JSON, and parse through the iTunes Search API.
+        Here, I gained more knowledge in the ability to:
+        plan, design, implement, test, debug, and deploy a complete object-oriented
+        software solution in Linux/Unix environment. I utilitze inheritance and polymorphism,
+        devloped a GUI for a software programming project, implement exception-handling, and was able
+        to understand and apply langauge basics using an OOP language.
 
-  <p><center>
-       Request access to view code on github <a href="mailto:harlibott@gmail.com?subject=Github Access Requested &body=Hi Harli, Please grant me access to your GALLERY repository source code!"><i>here</i></a>
-    </p>
-     <p>
-        <img id="gallery" src="src img/gallery.png" alt="Gallery"/>
-    </p></center>
-  </p>
-</div>
+      <p><center>
+        Request access to view code on github <a href="mailto:harlibott@gmail.com?subject=Github Access Requested &body=Hi Harli, Please grant me access to your GALLERY repository source code!"><i>here</i></a>
+      </p>
+        <p>
+          <img id="gallery" src="src img/gallery.png" alt="Gallery"/>
+       </p></center>
+     </p>
+   </section>
+ </div>
+</main>
 
-<button class="collapsible">Reversi</button>
-<div class="content">
-  <p>
+<!-- Reversi -->
+<main>
+<input id="reversidrop" type="checkbox"  style="opacity:0">
+ <label for="reversidrop">Reversi</label>
+ <div id="expand">
+   <section id="dropdown">
+      <p>
         This project was a text based game implemented via the command line, allowing for all different player matchups
         including human vs. computer, human vs. human,and computer vs. computer with different levels of computer
         intelligence. I utilize inheritance and polymorphism, exception handling, and a small implementation of
         simple artificial intelligence.
-    <p><center>
-      Request access to view code on github <a href="mailto:harlibott@gmail.com?subject=Github Access Requested &body=Hi Harli, Please grant me access to your REVERSI repository source code!"><i>here</i></a>
-    </p>
-    <p>
-      <img id="reversinogui" src="src img/reversinogui.png" alt="Reversi" />
-    </p></center>
-  </p>
-</div>
 
-<button class="collapsible">Lists</button>
-<div class="content">
-  <p>
-      In this project, I provided two different implementations of
-      a generic List interface, which defines different operations that one
-      should be able to do with a list. The list implementation decides how the
-      elements are stored internally so long as users are able to interact with
-      those elements via the methods defined in the interface. In this way, a list
-      is an example of an abstract data type*(ADT). Implementation of the list methods included
-      sorting, adding, removing, clearing, getting, setting, and more.
+      <p><center>
+        Request access to view code on github <a href="mailto:harlibott@gmail.com?subject=Github Access Requested &body=Hi Harli, Please grant me access to your REVERSI repository source code!"><i>here</i></a>
+      </p>
+        <p>
+          <img id="reversinogui" src="src img/reversinogui.png" alt="Reversi" />
+       </p></center>
+     </p>
+   </section>
+ </div>
+</main>
+
+<!-- Lists -->
+<main>
+<input id="listsdrop" type="checkbox"  style="opacity:0">
+ <label for="listsdrop">Lists</label>
+ <div id="expand">
+   <section id="dropdown">
+      <p>
+        In this project, I provided two different implementations of
+        a generic List interface, which defines different operations that one
+        should be able to do with a list. The list implementation decides how the
+        elements are stored internally so long as users are able to interact with
+        those elements via the methods defined in the interface. In this way, a list
+        is an example of an abstract data type*(ADT). Implementation of the list methods included
+        sorting, adding, removing, clearing, getting, setting, and more.
 
       <p><center>
         Request access to view code on github <a href="mailto:harlibott@gmail.com?subject=Github Access Requested &body=Hi Harli, Please grant me access to your LISTS repository source code!"><i>here</i></a>
@@ -209,28 +206,35 @@ once a month to catch up and talk about life.
           <img id="lists" src="src img/lists1.png" alt="Lists" />
           <img id="lists2" src="src img/lists2.png" alt="Lists" />
        </p></center>
-      </p>
-    </div>
+     </p>
+   </section>
+ </div>
+</main>
 
-<button class="collapsible">Minesweeper</button>
-  <div class="content">
-    <p>
-      In this project, I developed a non-GUI version of the game called Minesweeper. This is ran via
-      the command and allowed me to continue using my knowledge in a Linux / Unix enviornment. It required
-      skills in a smaller data structures topic of 2D array manipulation.
+<!-- Minesweeper -->
+<main>
+<input id="minesdrop" type="checkbox"  style="opacity:0">
+ <label for="minesdrop">Minesweeper</label>
+ <div id="expand">
+   <section id="dropdown">
+      <p>
+        In this project, I developed a non-GUI version of the game called Minesweeper. This is ran via
+        the command and allowed me to continue using my knowledge in a Linux / Unix enviornment. It required
+        skills in a smaller data structures topic of 2D array manipulation.
 
       <p><center>
         Request access to view code on github <a href="mailto:harlibott@gmail.com?subject=Github Access Requested &body=Hi Harli, Please grant me access to your MINESWEEPER repository source code!"><i>here</i></a>
       </p>
         <p>
-            <img id="mines" src="src img/mines1.png" alt="Minesweeper" />
-            <img id="mines2" src="src img/mines2.png" alt="Minesweeper" />
-          </p></center>
+          <img id="mines" src="src img/mines1.png" alt="Minesweeper" />
+          <img id="mines2" src="src img/mines2.png" alt="Minesweeper" />
+       </p></center>
      </p>
-  </div>
-<br></br>
+   </section>
+ </div>
+</main>
 
-<script src="jscript.js"></script>
+<br></br>
 <!-- Coursework -->
 <img id="coursework" src="src img/coursework2.png" alt="Coursework" /><br></br>
 <p style="text-align:center;"><img id="courses" src="src img/courses.png" alt="Courses"/><p>
