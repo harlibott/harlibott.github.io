@@ -1,8 +1,8 @@
 
 @font-face{
   font-family: "Effort";
-  src: url('fonts/Effort.eot') format('embedded-opentype'),
-  url('fonts/Effort.otf') format('opentype');
+  src: url('../fonts/Effort.eot') format('embedded-opentype'),
+  url('../fonts/Effort.otf') format('opentype');
 }
 
 /* Intro Paragraph */
@@ -37,7 +37,7 @@ body{
   font-size: 17px;
   color: #7f7f7f;
   font-family: Georgia, Times, "Times New Roman", serif;
-  background-image: url("../src img/header3.png");
+  background-image: url("../home/src img/header3.png");
   background-repeat: no-repeat;
   background-size: 100% 100px;
 }
