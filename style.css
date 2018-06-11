@@ -1,3 +1,10 @@
+
+@font-face{
+  font-family: "Effort";
+  src: url('fonts/Effort.eot') format('embedded-opentype'),
+  url('fonts/Effort.otf') format('opentype');
+}
+
 /* Intro Paragraph */
 #introparagraph{
   margin-left: 60px;
@@ -9,10 +16,8 @@ margin-left: 60px;
 }
 
 #smallsatlab{
-
   margin-right: 60px;
   margin-left: 60px;
-
 }
 
 /* Projects Paragraph*/
@@ -56,6 +61,13 @@ h2{
   font-weight: 400;
   font-family: Georgia, Times, "Times New Roman", serif;
   margin-left: 60px;
+}
+
+h3{
+  font-family: Effort;
+  font-size: 45px;
+  margin-left: 60px;
+  opacity: .9;
 }
 
 /* List */
