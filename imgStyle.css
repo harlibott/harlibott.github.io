@@ -9,8 +9,8 @@
 #me{
   posistion: absolute;
   float: right;
-  width: 400px;
-  padding: 130px 60px 60px 20px;
+  width: 350px;
+  padding: 50px 60px 60px 20px;
 }
 
 /* LinkedIn Image */
@@ -112,17 +112,6 @@
   posistion: absolute;
   padding-left: 10px;
   width: 489.5px;
-}
-#projectshead{
-  posistion: absolute;
-  padding-left: 50px;
-  width: 200px;
-}
-
-#leadershiphead{
-  posistion: absolute;
-  padding-left: 50px;
-  width: 290px;
 }
 
 #smallsatimg{
