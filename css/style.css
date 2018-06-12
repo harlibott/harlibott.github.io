@@ -181,7 +181,7 @@ section {
   transform: scale(.1);
 }
 #otherdrop:checked ~ #expand {
-  height: 680px;
+  height: 300px;
 }
 #otherdrop:checked ~ label::before {
   content: url("src img/dropdownbulletchecked.png");
