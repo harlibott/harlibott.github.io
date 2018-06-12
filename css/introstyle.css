@@ -1,8 +1,8 @@
 
 @font-face{
   font-family: "Effort";
-  src: url('fonts/Effort.eot') format('embedded-opentype'),
-  url('fonts/Effort.otf') format('opentype');
+  src: url('../fonts/Effort.eot') format('embedded-opentype'),
+  url('../fonts/Effort.otf') format('opentype');
 }
 
 *, *::after, *::before {
