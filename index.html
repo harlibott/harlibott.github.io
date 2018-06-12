@@ -9,10 +9,12 @@
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/introstyle.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="icon" type="image/png" href="src img/icon.png"/>
   	
 	<title>WELCOME</title>
 </head>
+
 <body>
 <section class="cd-intro">
 	<div class="cd-intro-content mask-2">
@@ -21,15 +23,24 @@
 				<h1 id = "name">Harli Bott</h1>
 				<img id="flower" src="src img/flower.png"/>
 				<div class="action-wrapper">
-					<a href="home/index.html" id="button">Visit Site</a>
+					<script>
+						$(document).ready(function(){
+							$(".btn").click(function(){
+								$("body").fadeOut(1000, function(){
+									window.location.href="home/index.html";
+								})		
+							})
+						});
+					</script>
+					<button class = "btn" id = "button">Visit Site</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
 	
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+
 </body>
 </html>

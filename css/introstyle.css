@@ -22,7 +22,6 @@ body {
 
 a {
   text-decoration: none;
-  cursor: pointer;
 }
 
 #flower{
@@ -85,6 +84,7 @@ a {
   border-radius: .25em;
   margin-right: 1.5em;
   font-family: Effort;
+  cursor: pointer;
 }
 
 .mask-2.cd-intro-content * {
