@@ -9,31 +9,26 @@
 </head>
 <body>
 
-<!-- MenuBar -->
-<p id= "menu">
-<br><br><br><br>
-<a class= "menulinks" href="#top">Overview <text style="margin-left: 40px;"></a>
-<a class= "menulinks" href="#proj"> Projects <text style="margin-left: 40px;"></a>
-<a class= "menulinks" href="#ssrl">Small Sat Research Lab <text style="margin-left: 40px;"> </a>
-<a class= "menulinks" href="#lead">Leadership <text style="margin-left: 40px;"> </a>
-<a class= "menulinks" href="#course">Coursework <text style="margin-left: 40px;"></a>
-<a class= "menulinks" href="#sources"> Resources</a>
+<p id="top">
+<div class="navbar"> 
+  <div id="title"><center><strong>Harli Bott</strong></center></div>
+    <div id="menu">
+      <a class ="menulinks" href="#top">Overview</a><text style="margin-left: 40px;">
+      <a class ="menulinks" href="#ssrl">Small Sat Research Lab</a><text style="margin-left: 40px;">
+      <a class= "menulinks" href="#lead">Leadership <text style="margin-left: 40px;"></a>
+      <a class= "menulinks" href="#proj"> Projects <text style="margin-left: 40px;"></a>
+      <a class= "menulinks" href="#course">Coursework <text style="margin-left: 40px;"></a>
+      <a class= "menulinks" href="#sources"> Resources</a>  
+    </div>
+</div>
+</p>
 
-<script>
-    $(document).ready(function(){
-      $(".proj").click(function(){
-          $("").fadeOut(1000, function(){
-             window.location.href="home/index.html";
-          })    
-        })
-   });
-</script>
-<br></br></br></br>
+<br></br><br></br>
 </p>
 
 <!-- intro image -->
+<br>
 <p id="top">
-<img id="intro" src="src img/intro2.png" alt="Hi, I'm Harli Bott" />
 <img id="me" src="src img/prof.png" alt="Picture: Harli Bott" />
 
 <!-- social media links-->
@@ -59,9 +54,9 @@
 </p>
 
 <!-- Small Sat Paragraph Text -->
-<h3 id = "ssrl"><a href="http://www.smallsat.uga.edu/" target="_blank" rel="noopener">Small Satellite Research Lab</h3></a>
+<h3 id = "ssrl">Small Satellite Research Lab</h3>
 <p id="smallsatlab">
-  Recently, I joined the University of Georgia's <strong>Small Satellite Research Lab </strong>(SSRL) as a Software Engineer to
+  Recently, I joined the University of Georgia's <strong><a href="http://www.smallsat.uga.edu/" target="_blank" rel="noopener">Small Satellite Research Lab</a></strong>(SSRL) as a Software Engineer to
   help develop the ground station user interface.
   The UGA Small Satellite Research Laboratory was founded in 2016 with the goal of launching a student built spacecraft
   - a CubeSat - into low earth orbit. Our mission is to place UGA among the top spacefaring universities
@@ -108,7 +103,7 @@ once a month to catch up and talk about life.
 
 <br></br>
 <!-- projects heading-->
-<h3 id = "proj"><a class="imgs" href="https://github.com/harlibott" target="_blank" rel="noopener">Projects</a></h3>
+<h3 id = "proj">Projects</h3>
 
 <!-- projects text-->
 <p id="projects">
@@ -352,8 +347,10 @@ once a month to catch up and talk about life.
 </p>
 <br><br>
 <p style="text-align: center;"><a href="#menu">Back to Top</a></p>
-<img id="bottom" src= "src img/foot.png" alt="Website designed, created, and implemented by Harli Bott" />
 
-
+<div class="footer">
+  <br>
+  <text>Harli Bott June 2018 | www.harlijbott.com | Hosted by Github Pages</text>
+</div>
 </body>
 </html>
