@@ -12,7 +12,7 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     height: 90px;
-    opacity: .9;
+    opacity: .90;
 }
 
 .navbar ~ h3{
@@ -39,6 +39,10 @@ margin-left: 60px;
   margin-left: 60px;
 }
 
+#internship{
+  margin-right: 60px;
+  margin-left: 60px;
+}
 /* Projects Paragraph*/
 #projects{
   margin-left: 60px;
@@ -86,7 +90,7 @@ h3{
   font-family: Effort;
   font-size: 45px;
   margin-left: 60px;
-  opacity: .9;
+  opacity: .;
 }
 
 /* List */
@@ -218,6 +222,7 @@ main {
   font-weight: 20;
   color: #7f7f7f;
 }
+
 #dropdown{
   font-size: 17px;
   color: #7f7f7f;
